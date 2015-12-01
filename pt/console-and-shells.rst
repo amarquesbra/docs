@@ -88,6 +88,7 @@ criaremos uma simples Hello World (Olá Mundo) shell. No diretório
 **src/Shell** de sua aplicação crie **HelloShell.php**. Coloque o seguinte
 código dentro do arquivo recem criado::
 
+    <?php
     namespace App\Shell;
 
     use Cake\Console\Shell;
@@ -99,6 +100,7 @@ código dentro do arquivo recem criado::
             $this->out('Hello world.');
         }
     }
+    ?>
 
 As convenções para as classes de shell são de que o nome da classe deve
 corresponder ao nome do arquivo, com o sufixo de Shell. No nosso shell criamos
